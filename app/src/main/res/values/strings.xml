@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TourGuide App</string>
+
+    <string name="restro">Restaurant</string>
+    <string name="hotels">Hotels</string>
+    <string name="attractions">Attractions</string>
+    <string name="malls">Malls</string>
+    <string name="header">Welcome to Udaipur</string>
+    <string name="restroName1">Aravali Lakeview Radisson Blu</string>
+    <string name="restroAdd1">Udaipur</string>
+    <string name="restroName2">Sheesh Mahal</string>
+    <string name="restroAdd2">Udaipur</string>
+    <string name="hotelName1">Trident Hotel</string>
+    <string name="hotelAdd1"> Near Lake Pichola, Pichola, Udaipur</string>
+    <string name="hotelName2">The Oberoi Udaivilas</string>
+    <string name="hotelAdd2">Haridasji Ki Magri, Pichola,Udaipur</string>
+    <string name="mallName1">Celebration Mall</string>
+    <string name="mallAdd1">Udaipur</string>
+    <string name="mallName2">LakeCity Mall</string>
+    <string name="mallAdd2">Udaipur</string>
+    <string name="attrName1">Fateh Sagar Lake</string>
+    <string name="attrAdd1">Udaipur</string>
+    <string name="attrName2">Sukhadia Circle</string>
+    <string name="attrAdd2">Udaipur</string>
+</resources>

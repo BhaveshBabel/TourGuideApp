@@ -8,11 +8,11 @@ public class Location {
     private String restroAddress;
     private int ImageResourceId = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
-
-    public Location(String name, String address) {
-        restroName = name;
-        restroAddress = address;
-    }
+//
+//    public Location(String name, String address) {
+//        restroName = name;
+//        restroAddress = address;
+//    }
 
     public Location(String name, String address, int imageResourceId) {
         restroName = name;

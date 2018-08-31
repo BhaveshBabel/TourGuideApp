@@ -18,8 +18,8 @@ public class Malls extends AppCompatActivity {
 
         ArrayList<Location> words = new ArrayList<Location>();
 
-        words.add(new Location(mallName1, mallAdd1));
-        words.add(new Location(mallName2, mallAdd2));
+        words.add(new Location(mallName1, mallAdd1, R.drawable.celebration));
+        words.add(new Location(mallName2, mallAdd2, R.drawable.lakecity));
 
         LocationAdapter adapter = new LocationAdapter(this, words, R.color.malls);
         ListView listView = (ListView) findViewById(R.id.list);

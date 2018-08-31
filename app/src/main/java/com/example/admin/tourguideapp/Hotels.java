@@ -18,8 +18,8 @@ public class Hotels extends AppCompatActivity {
 
         ArrayList<Location> words = new ArrayList<Location>();
 
-        words.add(new Location(hotelName1, hotelAdd1));
-        words.add(new Location(hotelName2, hotelAdd2));
+        words.add(new Location(hotelName1, hotelAdd1, R.drawable.trident));
+        words.add(new Location(hotelName2, hotelAdd2, R.drawable.oberoi));
 
         LocationAdapter adapter = new LocationAdapter(this, words, R.color.hotels);
 

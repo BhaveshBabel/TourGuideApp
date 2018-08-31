@@ -18,8 +18,8 @@ public class Attractions extends AppCompatActivity {
 
         ArrayList<Location> words = new ArrayList<Location>();
 
-        words.add(new Location(attrName1, attrAdd1));
-        words.add(new Location(attrName2, attrAdd2));
+        words.add(new Location(attrName1, attrAdd1, R.drawable.fs));
+        words.add(new Location(attrName2, attrAdd2, R.drawable.sukhadia));
         LocationAdapter adapter = new LocationAdapter(this, words, R.color.attractions);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);

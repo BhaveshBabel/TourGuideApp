@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/tan_background"
@@ -11,7 +10,7 @@
     <ImageView
         android:id="@+id/image"
         android:layout_width="@dimen/list_item_width"
-        android:layout_height="@dimen/list_item_height"/>
+        android:layout_height="100dp" />
 
     <LinearLayout
         android:id="@+id/text_container"
@@ -30,7 +29,7 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
             android:textStyle="bold"
-            tools:text="Name"/>
+            tools:text="Name" />
 
         <TextView
             android:id="@+id/address_text_view"
@@ -40,6 +39,6 @@
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@android:color/white"
-            tools:text="Address"/>
+            tools:text="Address" />
     </LinearLayout>
 </LinearLayout>
